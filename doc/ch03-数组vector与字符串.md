@@ -190,9 +190,7 @@
   - 可以通过声明引用来避免隐式转换
 
     数组与指针的区别:
-    <div align = center>
-    <img src="../pic/ch03/00.png "width="50% height="70%">
-    <div align = left>
+    ![](../pic/ch03/00.png)
 
     ```c
     int a[3] = {1,2,3};

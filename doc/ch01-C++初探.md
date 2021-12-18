@@ -24,9 +24,10 @@ int main(int x, char* y[])//名字不固定
 
 #### 1.2.(内建)类型
 (内建)类型:为一段存储空间赋予实际的意义
-<div align = center>
-<img src="../pic/ch01/00.png "width="30% height="70%">
-<div align = left>
+
+
+![](../pic/ch01/00.png)
+
 - int = 4byte = 4*8bit
 
 
@@ -84,9 +85,7 @@ C/C++ 系统 IO 比较
 - 条件部分:用于判断是否执行
 - 语句部分:要执行的操作
 
-<div align = center>
-<img src="../pic/ch01/01.png "width="30% height="70%">
-<div align = left>
+![](../pic/ch01/01.png)
 
 
 #### 3.2.== 与 = 操作
@@ -98,9 +97,7 @@ C/C++ 系统 IO 比较
 - 条件部分:用于判断是否执行
 - 语句部分:要执行的操作
 
-<div align = center>
-<img src="../pic/ch01/02.png "width="30% height="70%">
-<div align = left>
+![](../pic/ch01/02.png)
 
 
 ### 四.结构体与自定义数据类型

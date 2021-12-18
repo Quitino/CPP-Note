@@ -156,15 +156,11 @@
   - binary 能禁止系统特定的转换
   - 避免意义不明确的流使用方式(如 ifstream + out )
 
-<div align = center>
-<img src="../pic/ch07/00.png "width="50% height="70%">
-<div align = left>
+![]()../pic/ch07/00.png)
 
 #### 3.3.合法的打开方式组合(引自 C++ IOStream 一书)
 
-<div align = center>
-<img src="../pic/ch07/01.png "width="50% height="70%">
-<div align = left>
+![]()../pic/ch07/01.png)
 
 line1:ifstrea;
 line2,3:ofstream;

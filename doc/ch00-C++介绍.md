@@ -31,19 +31,13 @@ mangling过程:nm a.out
 - C 语言的扩展
   -  关注性能
         a.与底层硬件紧密结合: https://godbolt.org/z/xPq6e9
-        <div align = center>
-        <img src="../pic/ch00/03.png "width="50% height="70%">
-        <div align = left>
+        ![](../pic/ch00/03.png)
 
         b.对象生命周期的精确控制
-        <div align = center>
-        <img src="../pic/ch00/04.png "width="50% height="70%">
-        <div align = left>
+        ![](../pic/ch00/04.png)
 
         c.Zero-overhead Abstraction
-        <div align = center>
-        <img src="../pic/ch00/05.png "width="60% height="70%">
-        <div align = left>
+        ![](../pic/ch00/05.png)
 
 
     - 引入大量特性,便于工程实践  
@@ -87,9 +81,7 @@ mangling过程:nm a.out
 ### 三.C++ 的编译 / 链接模型
 #### 3.1.简单的加工模型
 
-<div align = center>
-<img src="../pic/ch00/00.png "width="40% height="70%">
-<div align = left>
+![](../pic/ch00/00.png)
 
 ####  3.2.问题:无法处理大型程序
 - 加工耗时较长
@@ -97,9 +89,7 @@ mangling过程:nm a.out
 
 
 #### 3.3.解决方案:分块处理
-<div align = center>
-<img src="../pic/ch00/01.png "width="50% height="70%">
-<div align = left>
+![](../pic/ch00/01.png)
 
 
 #### 3.4.好处
@@ -117,13 +107,9 @@ mangling过程:nm a.out
       - a.程序级:一般函数
       - b.翻译单元级:内连函数、类、模板
 
-<div align = center>
-<img src="../pic/ch00/02.jpg "width="60% height="70%">
-<div align = left>
+![](../pic/ch00/02.jpg)
 
-<div align = center>
-<img src="../pic/ch00/05.png "width="60% height="70%">
-<div align = left>
+![](../pic/ch00/05.png)
 
 
 #### 3.6.预处理
