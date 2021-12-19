@@ -156,11 +156,11 @@
   - binary 能禁止系统特定的转换
   - 避免意义不明确的流使用方式(如 ifstream + out )
 
-![]()../pic/ch07/00.png)
+![](../pic/ch07/00.png)
 
 #### 3.3.合法的打开方式组合(引自 C++ IOStream 一书)
 
-![]()../pic/ch07/01.png)
+![](../pic/ch07/01.png)
 
 line1:ifstrea;
 line2,3:ofstream;
