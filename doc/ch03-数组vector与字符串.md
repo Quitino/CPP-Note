@@ -123,7 +123,7 @@
 
     ----
     /*
-    参考链接:https://en.cppreference.com/w/cpp/language/decltype
+    参考链接:https://zh.cppreference.com/w/cpp/language/decltype
     a) if the value category of expression is xvalue(广义右值), 
        then decltype yields T&&;
     b) if the value category of expression is lvalue(广义左值), 
