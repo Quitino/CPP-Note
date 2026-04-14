@@ -293,6 +293,7 @@ basic_string 容器模板:实现了字符串相关的接口
 # 三.关联容器
 
 
+{% raw %}
   ```c
   #include<iostream>
   #include<list>
@@ -312,6 +313,7 @@ basic_string 容器模板:实现了字符串相关的接口
 
   }
   ```
+{% endraw %}
 
 - 使用键进行索引
   - set / map / multiset / multimap
@@ -428,6 +430,7 @@ map
 ![](assets/images/ch09/04.png)
 
 
+{% raw %}
 ```c
 #include<iostream>
 #include<map>
@@ -449,11 +452,13 @@ int main(){
 
 }
 ```
+{% endraw %}
 
 - 树中的每个结点是一个 std::pair
 - 键 (pair.first) 需要支持使用 < 比较大小
 - 或者采用自定义的比较函数来引入大小关系
 
+{% raw %}
   ```c
   #include<iostream>
   #include<map>
@@ -480,6 +485,7 @@ int main(){
     std::cout<<m.at(4)<<std::endl;//1, 会检测越界,相同的情况以前有讲到
   }
   ```
+{% endraw %}
 - 访问元素: find / contains / [] / at
 - 注意
   - map 迭代器所指向的对象是 std::pair ,其键是 const 类型

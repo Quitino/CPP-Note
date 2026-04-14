@@ -1037,6 +1037,7 @@ lambda 表达式( https://leanpub.com/cpplambda )
     }
     ```
  - 使用 auto 避免复制( C++14 )
+{% raw %}
     ```c
     #include<functional>//bind
     #include<iostream>
@@ -1060,6 +1061,7 @@ lambda 表达式( https://leanpub.com/cpplambda )
 
     }
     ```
+{% endraw %}
 
  - Lifting ( C++14 )
 
@@ -1163,6 +1165,7 @@ lambda 表达式( https://leanpub.com/cpplambda )
 
 
 - 引入映射概念,简化代码编写
+{% raw %}
     ```c
     #include<functional>//bind
     #include<iostream>
@@ -1179,5 +1182,6 @@ lambda 表达式( https://leanpub.com/cpplambda )
       st d::cout<<it->first<<' '<<it->second<<std::endl;
     }
     ```
+{% endraw %}
 - 从类型上区分迭代器与哨兵
 - 引入 view ,灵活组织程序逻辑

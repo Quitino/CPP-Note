@@ -374,6 +374,7 @@ nav_order: 5
     ```
 
  - 多维数组的 聚合初始化:一层大括号 V.S. 多层大括号
+{% raw %}
     ```c
     int x2[3][4] = {1,2,3,4,5};
     //(int int int int) (int int int int) (int int int int)
@@ -392,6 +393,7 @@ nav_order: 5
     int x[][2] = {1,2,3,4};//合法 int[2][2]
     int x[][3] = {1,2,3,4};//合法 int[2][3], 只能省略最前面的
     ```
+{% endraw %}
  - 多维数组的索引与遍历
     - 使用多个中括号来索引
     - 使用多重循环来遍历
@@ -576,6 +578,7 @@ nav_order: 5
     ```
 
   - 多维 vector
+{% raw %}
     ```c
     std::vector<std::vector<int>> x;
     x.push_back(std::vector<int>());
@@ -586,7 +589,8 @@ nav_order: 5
 
 
   - 从 . 到 -> 操作符
-    ```c
+    ```{% endraw %}
+c
     std::vector<int> x1 = {1,2,3};
     cout<< x.size()<<endl;
 
