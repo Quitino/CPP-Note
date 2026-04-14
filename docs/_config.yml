@@ -1,6 +1,6 @@
 title: CPP-Note
 description: C++ 学习笔记
-remote_theme: just-the-docs/just-the-docs
+theme: just-the-docs
 
 # GitHub Pages URL
 baseurl: "/CPP-Note"
@@ -32,9 +32,6 @@ footer_content: "CPP-Note &mdash; C++ 学习笔记"
 
 # Permalink style
 permalink: pretty
-
-plugins:
-  - jekyll-remote-theme
 
 # Exclude from build
 exclude:
