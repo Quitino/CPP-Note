@@ -1,3 +1,8 @@
+---
+title: 序列与关联容器
+nav_order: 11
+---
+
 # ch09.序列与关联容器目录
 1. 容器概述
 2. 序列容器
@@ -20,7 +25,7 @@
 - 获取迭代器: (c)begin/(c)end ; (c)rbegin/(c)rend -->C为const的含义
 - 迭代器分类:分成 5 类( category ),不同的类别支持的操作集合不同
   
-![](../pic/ch09/06.png)
+![](assets/images/ch09/06.png)
 
 # 二.序列容器
 - C++ **标准库**中提供了多种序列容器模板
@@ -170,7 +175,7 @@
 ## 2.2.[vector 容器模板](https://zh.cppreference.com/w/cpp/container/vector)
 - vector 容器模板:元素数目可变
 
-![](../pic/ch09/00.png)
+![](assets/images/ch09/00.png)
 
 
 图中 buffer是一个T*型的指针
@@ -234,7 +239,7 @@
 ## 2.3. [list 容器模板](https://zh.cppreference.com/w/cpp/container/list)
 - list 容器模板:双向链表
 
-![](../pic/ch09/01.png)
+![](assets/images/ch09/01.png)
 
 
   ```c
@@ -255,7 +260,7 @@
 ## 2.4.[forward_list 容器模板](https://zh.cppreference.com/w/cpp/container/forward_list)
 forward_list 容器模板:单向链表
 
-![](../pic/ch09/02.png)
+![](assets/images/ch09/02.png)
 
 
 - 目标:一个成本较低的线性表实现
@@ -269,10 +274,10 @@ forward_list 容器模板:单向链表
 
 ## 2.5.[deque容器模板](https://zh.cppreference.com/w/cpp/container/deque)
 
-![](../pic/ch09/07.png)
+![](assets/images/ch09/07.png)
 
 
-![](../pic/ch09/08.png)
+![](assets/images/ch09/08.png)
 
 
 deque容器模板: vector 与 list 的折衷
@@ -327,7 +332,7 @@ int main(){
   //数学上理解.set为集合,元素的顺序不重要,元素不能重复
 }
 ```
-![](../pic/ch09/03.png)
+![](assets/images/ch09/03.png)
 
 
 树特点:
@@ -420,7 +425,7 @@ int main(){
 ## 3.2.[map](https://zh.cppreference.com/w/cpp/container/map)
 map
 
-![](../pic/ch09/04.png)
+![](assets/images/ch09/04.png)
 
 
 ```c
@@ -553,7 +558,7 @@ int main(){
 ## 3.4.unordered_XXX
 [unordered_set](https://zh.cppreference.com/w/cpp/container/unordered_set) / unordered_map / unordered_multiset / unordered_multimap
 
-![](../pic/ch09/05.png)
+![](assets/images/ch09/05.png)
 
 
 

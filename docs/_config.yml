@@ -1,0 +1,44 @@
+title: CPP-Note
+description: C++ 学习笔记
+remote_theme: just-the-docs/just-the-docs
+
+# GitHub Pages URL
+baseurl: "/CPP-Note"
+url: "https://Quitino.github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# Just the Docs settings
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+
+color_scheme: light
+
+nav_sort: order
+
+footer_content: "CPP-Note &mdash; C++ 学习笔记"
+
+# Permalink style
+permalink: pretty
+
+plugins:
+  - jekyll-remote-theme
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - "*.gemspec"
+  - vendor

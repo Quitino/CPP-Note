@@ -1,3 +1,8 @@
+---
+title: 泛型算法与 Lambda 表达式
+nav_order: 12
+---
+
 # ch10.泛型算法与Lambda表达式目录
 1. 泛型算法
 2. bind 与 lambda 表达式
@@ -8,7 +13,7 @@
 
 # 一.泛型算法
 
-![](../pic/ch10/01.png)
+![](assets/images/ch10/01.png)
 
 
 
@@ -183,7 +188,7 @@ int main(){
   ```
 - 排序算法:改变输入序列中元素的顺序
   - [sort](https://zh.cppreference.com/w/cpp/algorithm/sort) / [unique](https://zh.cppreference.com/w/cpp/algorithm/unique)
-![](../pic/ch10/02.png)
+![](assets/images/ch10/02.png)
 
 
   ```c
@@ -325,7 +330,7 @@ int main(){
   ```
 
  - 反向迭代器:从后向前遍历
-![](../pic/ch10/00.png)
+![](assets/images/ch10/00.png)
 
   ```c
   /*----ostream_iterator----*/

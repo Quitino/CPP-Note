@@ -1,3 +1,8 @@
+---
+title: 模板
+nav_order: 15
+---
+
 #  ch13-模板
 
 
@@ -466,7 +471,7 @@ int main(){
 ##  1.10.避免使用函数模板的特化-video-90-2
 避免使用函数模板的特化[参考资料](https://www.youtube.com/watch?v=GydNMuyQzWo&list=PLHTh1InhhwT6DdPY3CPxayypP5DXek_vG&index=8).
 
-![](../pic/ch13/01.png)
+![](assets/images/ch13/01.png)
 
 - 不参与重载解析,会产生反直觉的效果(video-90-2-3.00)
 

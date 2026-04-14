@@ -1,3 +1,8 @@
+---
+title: 深入 IO
+nav_order: 9
+---
+
 ### ch07.深入IO
 1. IOStream 概述
 2. 输入与输出
@@ -156,11 +161,11 @@
   - binary 能禁止系统特定的转换
   - 避免意义不明确的流使用方式(如 ifstream + out )
 
-![](../pic/ch07/00.png)
+![](assets/images/ch07/00.png)
 
 #### 3.3.合法的打开方式组合(引自 C++ IOStream 一书)
 
-![](../pic/ch07/01.png)
+![](assets/images/ch07/01.png)
 
 line1:ifstrea;
 line2,3:ofstream;

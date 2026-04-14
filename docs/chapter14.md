@@ -1,3 +1,8 @@
+---
+title: 类进阶
+nav_order: 14
+---
+
 #  ch12-类进阶
 
 
@@ -1088,7 +1093,7 @@ int main(){
 
 #  二.类的继承
 
-![](../pic/ch12/01.png)
+![](assets/images/ch12/01.png)
 
 
   ```c
@@ -1438,7 +1443,7 @@ int main(){
 虚函数表:
 
 
-![](../pic/ch12/02.png)
+![](assets/images/ch12/02.png)
 
 
 1. 左边最里面的方框为一个基类;

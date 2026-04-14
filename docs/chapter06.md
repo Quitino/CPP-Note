@@ -1,3 +1,8 @@
+---
+title: 表达式基础与详述
+nav_order: 6
+---
+
 ### ch04.表达式基础与详述目录
 1. 表达式基础
 2. 表达式详述
@@ -64,7 +69,7 @@
   - prvalue(pure纯,纯右值) :用于初始化对象或作为操作数
   - xvalue(expiring将亡,将亡值) :表示其资源可以被重新使用
   
-  ![](../pic/ch04/00.png)
+  ![](assets/images/ch04/00.png)
                                                       
     ```c
     #include<iostream>
@@ -132,7 +137,7 @@
 
 - 再论 decltype
 - [cppreference.decltype](https://zh.cppreference.com/w/cpp/language/decltype)
-  ![](../pic/ch04/01.png)
+  ![](assets/images/ch04/01.png)
 
 
 - [cppreference.move](https://zh.cppreference.com/w/cpp/utility/move)

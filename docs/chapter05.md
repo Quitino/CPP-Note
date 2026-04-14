@@ -1,3 +1,8 @@
+---
+title: 数组 vector 与字符串
+nav_order: 5
+---
+
 # ch03.数组,vector与字符串目录
 1. 数组
 2. vector
@@ -190,7 +195,7 @@
   - 可以通过声明引用来避免隐式转换
 
     数组与指针的区别:
-    ![](../pic/ch03/00.png)
+    ![](assets/images/ch03/00.png)
 
     ```c
     int a[3] = {1,2,3};

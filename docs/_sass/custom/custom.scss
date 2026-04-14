@@ -1,0 +1,23 @@
+// Custom styles for CPP-Note
+
+// Slightly wider content area
+.main-content {
+  max-width: 900px;
+}
+
+// Better code block appearance
+div.highlighter-rouge,
+figure.highlight {
+  border-radius: 4px;
+  font-size: 0.85em;
+}
+
+// Table formatting
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.4em 0.8em;
+}
